@@ -33,7 +33,7 @@ int main(void)
 	paramdisired.attitude_desire.pitch=0;
 	paramdisired.attitude_desire.roll=0;
 	paramdisired.attitude_desire.yaw=0;
-	actualThrust=0.4f/1.4118f * POWER_MAX;//max 1.4118f
+	actualThrust=1.0f/5.0f * POWER_MAX;//max 1.4118f
 	TIM2_PWM_Init(PWM_CNT-1,84-1);	//84M/84=1Mhz的计数频率,重装载值500
 	//500Hz
 	while(1)
