@@ -1,4 +1,4 @@
 # pid-attitude-
 pid,attitude only
 
-姿态环pid
+基于stm32的姿态环pid
